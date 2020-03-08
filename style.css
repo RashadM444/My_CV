@@ -11,7 +11,7 @@ body {
     background-size: cover;
     position: relative;
 }
-/*_______________________________Box with profile and general info_____________________________*/
+/*_______________________________Home Page-Box with profile and general info_____________________________*/
 .box {
     width: 500px;
     height: 550px;
@@ -60,6 +60,7 @@ body {
 .box ul {
     list-style: none;
     padding: 30px;
+    display: block;
 }
 
 .box li{
@@ -72,12 +73,81 @@ body {
     padding: 20px;
 }
 
-.box li:hover {
-    background-color: yellow;
-    color:  black;
-    transition: ease-in-out 800ms;
+.box li a {
+    text-decoration: none;
+    color: whitesmoke;
+    display: block;
 }
 
+.box li:hover {
+    background-color: yellow;
+    transition: ease-in-out 800ms;
+    transition-timing-function: ease-out 1500ms;
+}
+.box li:hover a{
+    color: black;
+    transition: ease-in-out 800ms;
+    transition-timing-function: ease-out 1500ms;
+}
+/*_______________________________Education Page-logo image_____________________________*/
+.logo {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 10px;
+}
 
+/*_______________________________Education Page-menu bar <nav>_____________________________*/
+.menu {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.514);
+    margin-left: 0;
+}
+.menu ul {
+    margin: 10px 10px;
+    border: rgba(197, 185, 185, 0.397);
+    border-radius: 5px;
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.514);
+    padding: 20px;
+    list-style: none;
+}
+.menu ul li {
+    display: inline-block;
+    margin: 10px 10px;
+    border: rgba(197, 185, 185, 0.397);
+    border-radius: 5px;
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.514);
+    padding: 10px 20px;
+    width: 80px;
+    height: 25px;
+    text-align: center;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    display: block;
+    border-radius: 5px;
+}
 
+.menu ul li:hover {
+    background-color: yellow;
+    transition: ease-in-out 800ms;
+    transition-timing-function: ease-out 1500ms;
+}
+.menu ul li:hover a{
+    color: black;
+    transition: ease-in-out 800ms;
+    transition-timing-function: ease-out 1500ms;
+}
+
+.head {
+    color: whitesmoke;
+    text-align: center;
+    letter-spacing: 5px;
+    position: relative;
+    top: 50px;
 }
