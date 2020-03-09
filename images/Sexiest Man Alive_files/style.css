@@ -270,16 +270,10 @@ body {
 
 .contacts .square:hover #linked {
     color: #106097;
-    transition: ease-in-out 1000ms;
-}
-.contacts .square:hover #fb {
-    color: #4267B2;
-    transition: ease-in-out 1000ms;
 }
 
-.contacts .square:hover #wp {
-    color: #38E675;
-    transition: ease-in-out 1000ms;
+.contacts .square:hover #fb {
+    color: black;
 }
 
 .contacts div {
@@ -289,27 +283,4 @@ body {
     width: 500px;
     height: 500px;
     flex-basis: 30%;
-}
-
-#watsap {
-    list-style: none;
-}
-
-#number {
-    
-    font-size: 24px;
-    
-    
-    
-    display: none;
-}
-
-.contacts .square :hover #number {
-    display: block;
-    color: black;
-    padding: 20px;
-    border: 1px solid #38E675;
-    border-radius: 10px;
-    background-color: #38E675;
-    transition: ease-in-out 1000ms;
 }
