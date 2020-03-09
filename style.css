@@ -99,7 +99,7 @@ body {
     margin-top: 10px;
 }
 
-/*_______________________________Education Page-menu bar <nav>_____________________________*/
+/*_______________________________menu bar <nav>_____________________________*/
 .menu {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.514);
@@ -144,10 +144,90 @@ body {
     transition-timing-function: ease-out 1500ms;
 }
 
+/*_______________________________Head of the page_____________________________*/
 .head {
     color: whitesmoke;
     text-align: center;
     letter-spacing: 5px;
     position: relative;
     top: 50px;
+    margin-bottom: 70px;
+}
+/*_______________________________Block of information with logo info and date_____________________________*/
+.logo-info-date {
+    width: 80%;
+    min-width: 50%;
+    border: rgba(197, 185, 185, 0.397);
+    border-radius: 5px;
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.514);
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    ;
+}
+
+.logo-info-date :hover {
+    background-color: black;
+    border-radius: 40px;
+    transition: ease-in 2000ms;
+}
+
+.logo-info-date .unilogo {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+}
+
+.logo-info-date img {
+    width: 150px;
+    height: 100px;
+    max-width: 400px;
+    min-width: 50px;
+    margin: auto;
+}
+
+#ieseg {
+    width: 230px;
+    height: 80px;
+}
+
+.logo-info-date .info {
+    flex: 2;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.logo-info-date .info h2 {
+    padding: 10px;
+    letter-spacing: 4px;
+}
+
+.logo-info-date .info h3 {
+    padding: 5px 10px 1px;
+}
+
+.logo-info-date .info h4 {
+    padding: 1px 10px 5px;
+    font-style: italic;
+}
+
+.logo-info-date .info ul {
+    padding: 5px 10px;
+    list-style: square;
+}
+
+.logo-info-date .date {
+    flex: 1;
+    margin: auto;
+    display: flex;
+}
+
+.logo-info-date .date h3 {
+    margin: auto;
 }
