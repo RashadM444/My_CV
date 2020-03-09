@@ -172,7 +172,6 @@ body {
 
 .logo-info-date :hover {
     background-color: black;
-    border-radius: 40px;
     transition: ease-in 2000ms;
 }
 
@@ -226,8 +225,24 @@ body {
     flex: 1;
     margin: auto;
     display: flex;
+    height: 100%;
 }
 
 .logo-info-date .date h3 {
     margin: auto;
+}
+
+/*_______________________________Pasha Logo_____________________________*/
+#pblogo {
+    width: 200px;
+}
+/*_______________________________Murphy Logo_____________________________*/
+#mrlogo {
+    height: 200px;
+    width: 230px;
+}
+/*_______________________________AKGT Logo_____________________________*/
+#akgt {
+    height: 200px;
+    width: 200px;
 }
